@@ -16,7 +16,7 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 4.2;
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -28,9 +28,7 @@ const nuevoModulo = 21 % 5 === 4.2;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-var str = "str";
 return str;
-  
 }
 
 function suma(x, y) {
@@ -44,7 +42,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var Resta= y - x;
+  var Resta= x - y;
   return Resta;
 }
 
@@ -178,8 +176,9 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if (numero > 0) {
     return "Es positivo";
-  }
+  } else {
   return "Es negativo";
+  }
 }
 
 function agregarSimboloExclamacion(str) {
