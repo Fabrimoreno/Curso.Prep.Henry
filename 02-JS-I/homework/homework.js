@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 4.2;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-var str;
+var str = "str";
 return str;
   
 }
@@ -66,7 +66,10 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if(x===y) {
+    return true;
+}
+return false;
 }
 
 function tienenMismaLongitud(str1, str2) {
